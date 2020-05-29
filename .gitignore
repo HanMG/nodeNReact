@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 config/
 
+
 ### Node template
 # Logs
 logs
@@ -117,4 +118,5 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .pnp.*
+
 

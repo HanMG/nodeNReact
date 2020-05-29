@@ -5,7 +5,9 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const { User } = require('./models/User')
 
-mongoose.connect('mongodb+srv://moon:moon89@nodenreact-yyvvm.mongodb.net/test?retryWrites=true&w=majority',{
+const config = require('./config/key')
+
+mongoose.connect(config.mongoURI, {
     useNewUrlParser: true, useUnifiedTopology:true, useCreateIndex: true, useFindAndModify: false
 }).then(() => console.log('MongoDB Connected'))
   .catch(err => console.log(err))
