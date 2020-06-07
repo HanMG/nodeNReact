@@ -1,0 +1,35 @@
+
+@Concurrently를 통해 클라이언트(react), 백엔드(express)의 서버를 한번에 킬 수 있다.
+npm install concurrently --save
+
+@Antd CSS Framework
+npm install antd
+
+@Redux == State를 관리해 주는 툴
+Props : 컴포넌트 간 소통에 사용, 부모 => 자식으로만 이동, 부모 => 자식으로 준 값은 immutable(불변하다.)
+
+State: 컴포넌트 안에서 사용, 값이 변경가능하며 변경되면 리렌더링됨.
+
+Flow : 한방향으로 흐름
+
+React Component  -> Action -> Reducer -> Store -> React Component
+
+@Redux setting
+npm install redux react-redux redux-promise redux-thunk
+
+Redux store는 객체 형식으로 받는데, 객체 형식으로 가 아닌 promise, functions 형식으로 받을때도 있음
+
+1. redux
+
+2. react-redux
+
+3. redux-promise, redux-thunk : 리덕스를 더 잘 쓰기위한 미들웨어
+
+@React Component
+1. class component : 더 많은 기능, 코드가 길어짐, 복잡해짐, 성능적으로 좀 느려짐
+2. functional component : 기능이 한정되있음, 코드가 짧고 간단해짐, class component보다 빠름
+
+
+
+
+
